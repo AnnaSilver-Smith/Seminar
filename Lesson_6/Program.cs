@@ -1,11 +1,5 @@
 ﻿//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number % 2 == 1)
-{
-    Console.WriteLine("{0} NO", number);
-}
-else
-{
-    Console.WriteLine("{0} YES", number);
-}
+string N = Console.ReadLine();
+int S = Convert.ToInt32(N);
+Console.WriteLine(S % 2 == 0 ? "Yes" : "No");
